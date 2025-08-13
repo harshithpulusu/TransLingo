@@ -23,7 +23,7 @@ class EnhancedLanguageTranslatorApp:
         self.speech_recognizer = sr.Recognizer()
         self.tts_engine = None  # We'll use system say command
         self.translation_history = []
-        self.load_history()
+        self.load_history() #laods history from file
         
         self.setup_ui()
 
