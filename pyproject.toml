@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "language-translator"
+version = "0.1.0"
+authors = [
+    { name = "Harshith Pulusu" },
+]
+description = "A simple language translator with GUI"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "googletrans==3.1.0a0",
+    "SpeechRecognition",
+    "pyttsx3",
+    "openai",
+    "transformers",
+    "torch",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "flake8",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/language_translator"]

@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-08-11T12:22:27.571782",
+    "original": "Hi! How are you my name is Harshith",
+    "translation": "Hi! Woyɛ me din dɛn ne Harshith .",
+    "src_lang": "english",
+    "dest_lang": "twi"
+  },
+  {
+    "timestamp": "2025-08-11T12:21:59.821282",
+    "original": "Hi! How are you my name is Harshith",
+    "translation": "¡Hola! ¿Cómo estás mi nombre es Harshith?",
+    "src_lang": "english",
+    "dest_lang": "spanish"
+  }
+]
