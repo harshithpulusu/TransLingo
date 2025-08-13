@@ -36,7 +36,7 @@ class LanguageTranslatorApp:
         button_frame.pack(pady=5)
         
         # Translate button
-        ttk.Button(button_frame, text="Translate", command=self.translate_text).pack(side=tk.LEFT, padx=5)
+        ttk.Button(button_frame, text="Translate", command=self.translate_text).pack(side=tk.LEFT, padx=5) # Translate button
         
         # Voice input button
         ttk.Button(button_frame, text="Voice Input", command=self.voice_input).pack(side=tk.LEFT, padx=5)
